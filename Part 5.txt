@@ -1,0 +1,7 @@
+Question 5:
+Multiple issuses could be causes if a robot is assigned a new task immediately. First, the robot 
+will essentially be working non-stop with no breaks and no other robot will be able to operate 
+next to each becuase the tools will never be available. Another issue would be that depending
+on the programming, the robots could collide when reaching for the tools if there is no seperation
+in task assignance. A potential solution to this task would be to add a buffer time or deley before 
+the robot who just finished his task can attempt to grab the tools again. 
