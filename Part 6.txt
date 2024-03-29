@@ -1,0 +1,11 @@
+Part 6:
+Some of the issues that someone might obtain during development of this program is not accounting for 
+the threads to be occuring at the exact same time, and not taking measures as in synchronization,
+conditional variables, lock mechanisms, semaphores, etc to allow for a smooth execution of the 
+simulation. Time dependency depending on the strength and speed of the running program will be 
+a cause for inconsistent results depending on who is running the program. When these actions take time 
+to finish, it could cause multiple aircraft to be run into the same program location at the same
+time causing incorect results and even a permenant lock. A potential solution to this issue could
+be to us conditional varibales to assign wait-times before and after actions which would allow the
+program to properly run through the simulation. The conditional varibale allows for notifying the 
+wait varible for when it has properly run which will fix the problem states above potentially.
